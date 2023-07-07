@@ -1,0 +1,83 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+	},
+	{
+        "tag": "greeting",
+        "patterns": ["hello", "hi", "hey"],
+        "responses": ["Hello!", "Hi there!", "Hey! How can I help you today?"]
+    },
+    {
+        "tag": "ovulation",
+        "patterns": ["When do I ovulate?", "How can I know my ovulation period?", "What is ovulation?"],
+        "responses": ["Ovulation is the release of an egg from the ovary. It usually occurs around the middle of your menstrual cycle. Do you want to know more about ovulation?"]
+    },
+    {
+        "tag": "conception",
+        "patterns": ["How does conception occur?", "What happens during conception?", "Can you explain the process of conception?"],
+        "responses": ["Conception occurs when a sperm fertilizes an egg in the fallopian tube. Would you like more information about the process of conception?"]
+    },
+    {
+        "tag": "sign_and_symptoms",
+        "patterns": ["What are the common signs and symptoms of pregnancy?", "How do I know if I'm pregnant?", "What changes occur in the body during pregnancy?"],
+        "responses": ["Some common signs and symptoms of pregnancy include missed periods, nausea, breast tenderness, fatigue, and frequent urination. These changes occur due to hormonal shifts in your body. Remember, it's always best to take a pregnancy test to confirm."]
+    },
+    {
+        "tag": "foetus_development",
+        "patterns": ["How does the foetus develop during pregnancy?", "What are the stages of foetus development?", "Can you explain the growth of the foetus?"],
+        "responses": ["During pregnancy, the foetus goes through different stages of development. It starts as a fertilized egg, then becomes an embryo, and eventually develops into a foetus. The organs and body systems gradually form and mature. If you'd like more information about the specific stages, I can provide a detailed overview."]
+    },
+    {
+        "tag": "labour_signs",
+        "patterns": ["What are the signs that labour is approaching?", "How can I recognize the early signs of labour?", "What should I look out for before going into labour?"],
+        "responses": ["Signs that labour is approaching include regular contractions, the rupture of the amniotic sac (water breaking), a bloody show, lower back pain, and an increase in pelvic pressure. However, it's important to consult with your healthcare provider to confirm the signs of labour."]
+    },
+    {
+        "tag": "labour_and_childbirth",
+        "patterns": ["What happens during labour?", "Can you explain the stages of childbirth?", "What should I expect during delivery?"],
+        "responses": ["Labour is divided into three stages: the dilation of the cervix, the pushing stage, and the delivery of the placenta. Each stage has its own unique characteristics and processes. During childbirth, you'll be supported by healthcare professionals to ensure a safe and healthy delivery for both you and your baby."]
+    },
+    {
+        "tag": "nutrition",
+        "patterns": ["What should I eat during pregnancy?", "Can you recommend a healthy diet for pregnant women?", "Are there any foods I should avoid during pregnancy?"],
+        "responses": ["A healthy diet during pregnancy should include a variety of fruits, vegetables, whole grains, lean proteins, and dairy products. It's important to stay hydrated and avoid certain foods like raw seafood, unpasteurized dairy, and excessive caffeine. However, consult with your healthcare provider or a nutritionist for personalized dietary recommendations."]
+    },
+    {
+        "tag": "exercise",
+        "patterns": ["What exercises are safe during pregnancy?", "How can I stay active while pregnant?", "Are there any exercises I should avoid during pregnancy?"],
+        "responses": ["Regular exercise during pregnancy is beneficial for both you and your baby. Some safe exercises include walking, swimming, prenatal yoga, and low-impact aerobics. However, it's essential to consult with your healthcare provider before starting or continuing any exercise regimen, as individual circumstances may vary."]
+    },
+    {
+        "tag": "prenatal_care",
+        "patterns": ["How often should I have prenatal check-ups?", "What tests are performed during prenatal care?", "Do I need to take any prenatal vitamins?"],
+        "responses": ["Prenatal care is vital for a healthy pregnancy. Typically, prenatal check-ups are scheduled monthly in the early stages, becoming more frequent as your due date approaches. Prenatal care includes various tests such as blood tests, ultrasounds, and screenings. Additionally, your healthcare provider may recommend prenatal vitamins to ensure you're getting essential nutrients."]
+    },
+    {
+        "tag": "common_discomforts",
+        "patterns": ["How can I manage morning sickness?", "What can I do for back pain during pregnancy?", "Are there any remedies for swollen feet?"],
+        "responses": ["Morning sickness can be managed by eating small, frequent meals, avoiding triggers, and staying hydrated. To alleviate back pain, practice good posture, use proper body mechanics, and consider exercises or stretches recommended by your healthcare provider. For swollen feet, elevate your legs when possible and avoid standing or sitting for long periods. Compression socks may also provide relief."]
+    },
+    {
+        "tag": "emotional_wellbeing",
+        "patterns": ["How can I manage mood swings during pregnancy?", "What are some coping strategies for pregnancy-related anxiety?", "Are there any relaxation techniques for stress relief?"],
+        "responses": ["Mood swings are common during pregnancy due to hormonal changes. To manage them, engage in activities you enjoy, practice relaxation techniques like deep breathing or meditation, and communicate your feelings with your partner or support network. For pregnancy-related anxiety, consider seeking support from a therapist or joining a prenatal support group."]
+    },
+    {
+        "tag": "preparing_for_parenthood",
+        "patterns": ["How do I create a birth plan?", "What factors should I consider when choosing a healthcare provider?", "What are some essentials for setting up a nursery?"],
+        "responses": ["Creating a birth plan involves considering your preferences for pain management, birthing environment, and medical interventions. When choosing a healthcare provider, factors to consider include their experience, approach to childbirth, and the level of comfort and trust you feel. Essentials for setting up a nursery may include a crib, changing table, baby clothes, diapers, and essential baby care items."]
+    },
+    {
+        "tag": "postpartum_care",
+        "patterns": ["What should I expect during postpartum recovery?", "Can you provide tips for successful breastfeeding?", "How can I take care of a newborn?"],
+        "responses": ["Postpartum recovery involves physical and emotional adjustments. You may experience bleeding, breast engorgement, and changes in mood. Rest, proper nutrition, and seeking support from loved ones are crucial. For successful breastfeeding, ensure a proper latch, nurse frequently, and seek guidance from a lactation consultant if needed. Taking care of a newborn includes feeding, diaper changes, bathing, and providing a safe and nurturing environment."]
+    },
+    {
+        "tag": "fallback",
+        "patterns": ["", "I don't know", "Maybe", "Not sure"],
+        "responses": ["I'm sorry, I didn't understand that. Can you please rephrase your question?"]
+    }
+]
+}
